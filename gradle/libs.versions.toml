@@ -10,7 +10,7 @@ compose-compiler = "1.5.11" # https://developer.android.com/jetpack/androidx/rel
 
 [libraries]
 # AndroidX Compose BOM
-androidx-compose-bom = "androidx.compose:compose-bom:2024.04.01" # https://developer.android.com/jetpack/compose/bom/bom-mapping
+androidx-compose-bom = "androidx.compose:compose-bom:2024.05.00" # https://developer.android.com/jetpack/compose/bom/bom-mapping
 # AndroidX Compose Preview support
 androidx-compose-ui-tooling = { module = "androidx.compose.ui:ui-tooling" }
 androidx-compose-ui-tooling-preview = { module = "androidx.compose.ui:ui-tooling-preview" }
