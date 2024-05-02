@@ -19,7 +19,7 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "EdgeToEdgeExample"
+rootProject.name = "edge-to-edge-example"
 include(":androidview")
 include(":compose-material2")
 include(":compose-material3")
