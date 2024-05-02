@@ -20,4 +20,5 @@ dependencyResolutionManagement {
 }
 
 rootProject.name = "EdgeToEdgeExample"
+include(":material2withcompose")
 include(":material3withcompose")
