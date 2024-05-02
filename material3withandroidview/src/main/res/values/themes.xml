@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.App" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">@color/purple_80</item>
+        <item name="colorSecondary">@color/purple_grey_40</item>
+        <item name="colorSurface">@color/purple_80</item>
+        <item name="android:colorBackground">@color/purple_grey_80</item>
+    </style>
+
+    <style name="Theme.App.AppBarOverlay" parent="ThemeOverlay.MaterialComponents.Dark.ActionBar" />
+
+    <style name="Theme.App.PopupOverlay" parent="ThemeOverlay.MaterialComponents.Light" />
+
+</resources>
