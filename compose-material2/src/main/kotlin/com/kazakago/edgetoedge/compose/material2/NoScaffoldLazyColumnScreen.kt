@@ -1,6 +1,7 @@
 package com.kazakago.edgetoedge.compose.material2
 
 import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.layout.WindowInsets
 import androidx.compose.foundation.layout.asPaddingValues
 import androidx.compose.foundation.layout.consumeWindowInsets
@@ -24,6 +25,7 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import com.kazakago.edgetoedge.compose.material2.ui.theme.AppTheme
+import com.kazakago.edgetoedge.compose.material3.util.plus
 
 @Composable
 fun NoScaffoldLazyColumnScreen(
@@ -36,10 +38,10 @@ fun NoScaffoldLazyColumnScreen(
         Box(Modifier.fillMaxSize()) {
             LazyColumn(
                 modifier = Modifier.consumeWindowInsets(WindowInsets.systemBars),
-                contentPadding = WindowInsets.systemBars.asPaddingValues(),
+                contentPadding = WindowInsets.systemBars.asPaddingValues() + PaddingValues(horizontal = 16.dp, vertical = 8.dp),
             ) {
                 items(20) {
-                    Card(Modifier.padding(vertical = 8.dp, horizontal = 16.dp)) {
+                    Card(Modifier.padding(vertical = 8.dp)) {
                         Text(
                             modifier = Modifier
                                 .fillMaxWidth()
